@@ -1,0 +1,20 @@
+name: Validate desktop logic
+on:
+  push:
+  pull_request:
+jobs:
+  playback-and-interaction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Playback boundaries
+        run: node source/check_playback.mjs
+      - name: Random behavior and excluded actions
+        run: node source/check_random_behavior.mjs
+      - name: Mouse interaction
+        run: node source/check_mouse_interaction.mjs
+      - name: Conversation animation queue
+        run: node source/check_chat_queue.cjs

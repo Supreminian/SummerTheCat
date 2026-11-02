@@ -25,6 +25,10 @@
 - 模型：原生 HTTPS 流式接口；服务商和模型按用户自己的账号与项目权限配置。
 - 凭据：API Key 保存在本机 macOS 钥匙串，不写入网页、源码、发布包或 Git 仓库。
 
+## 下载
+
+可在 [v30 Release](https://github.com/Supreminian/SummerTheCat/releases/tag/v30) 下载本次从源码重新构建的 macOS 通用应用及 SHA256 校验文件。
+
 ## 构建与运行
 
 要求 **macOS 13+**，安装 Xcode Command Line Tools 后执行：
