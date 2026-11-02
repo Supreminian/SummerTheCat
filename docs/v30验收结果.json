@@ -1,0 +1,15 @@
+{
+  "version": 30,
+  "platform": "macOS universal arm64 + x86_64",
+  "modelConnected": false,
+  "chatPlacement": "upper right of cat head; left fallback near right screen edge",
+  "sourceClips": [
+    "thinking_enter",
+    "thinking_loop",
+    "thinking_exit"
+  ],
+  "queueChecks": true,
+  "browserChecks": true,
+  "nativeConversationChecks": true,
+  "legacyNativeChecks": true
+}

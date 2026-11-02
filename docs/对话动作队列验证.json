@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "action": "look",
+      "completedBeforeThinking": true,
+      "exitAfterLoopBoundary": true
+    },
+    {
+      "action": "yawn",
+      "completedBeforeThinking": true,
+      "exitAfterLoopBoundary": true
+    },
+    {
+      "action": "groom",
+      "completedBeforeThinking": true,
+      "exitAfterLoopBoundary": true
+    },
+    {
+      "action": "ears",
+      "completedBeforeThinking": true,
+      "exitAfterLoopBoundary": true
+    },
+    {
+      "action": "paw_up",
+      "completedBeforeThinking": true,
+      "exitAfterLoopBoundary": true
+    },
+    {
+      "action": "evade_left",
+      "completedBeforeThinking": true,
+      "exitAfterLoopBoundary": true
+    },
+    {
+      "case": "close before entry cancels only the queued entry",
+      "passed": true
+    },
+    {
+      "case": "rapid submit/reopen, sustained looping and pause",
+      "passed": true
+    }
+  ]
+}

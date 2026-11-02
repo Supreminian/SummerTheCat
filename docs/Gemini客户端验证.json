@@ -1,0 +1,58 @@
+{
+  "checks" : [
+    {
+      "name" : "native Gemini SSE and Unicode",
+      "passed" : true
+    },
+    {
+      "name" : "official endpoint without key in URL",
+      "passed" : true
+    },
+    {
+      "name" : "provider-specific authentication",
+      "passed" : true
+    },
+    {
+      "name" : "native user\/model history and system instruction",
+      "passed" : true
+    },
+    {
+      "name" : "no provider credential crossover",
+      "passed" : true
+    },
+    {
+      "name" : "Gemini model ID cannot change host or path",
+      "passed" : true
+    },
+    {
+      "name" : "Gemini credentials redacted",
+      "passed" : true
+    },
+    {
+      "name" : "free quota errors actionable",
+      "passed" : true
+    },
+    {
+      "name" : "safety block handled",
+      "passed" : true
+    },
+    {
+      "name" : "truncated output not treated as complete",
+      "passed" : true
+    },
+    {
+      "name" : "missing final reason rejected",
+      "passed" : true
+    },
+    {
+      "name" : "OpenAI factory remains functional",
+      "passed" : true
+    },
+    {
+      "name" : "cancel stops Gemini stream",
+      "passed" : true
+    }
+  ],
+  "liveAPIRequest" : false,
+  "passed" : true
+}

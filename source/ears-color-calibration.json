@@ -1,0 +1,54 @@
+{
+  "method": "One fixed per-channel grade matched to opaque black and white fur of natural sitting",
+  "gains": [
+    1.0229711814652314,
+    1.0234574603985693,
+    1.0292772647677593
+  ],
+  "offsets": [
+    0.21104131814016397,
+    1.1748211548287408,
+    -0.4693558749795087
+  ],
+  "samples": {
+    "blackCoat": {
+      "targetMedianRGB": [
+        45.0,
+        32.0,
+        38.0
+      ],
+      "sourceMedianRGB": [
+        44.0,
+        29.0,
+        37.0
+      ],
+      "correctedMedianRGB": [
+        45.0,
+        31.0,
+        38.0
+      ],
+      "beforeError": 1.6666666666666667,
+      "afterError": 0.3333333333333333
+    },
+    "whiteFur": {
+      "targetMedianRGB": [
+        223.0,
+        208.0,
+        210.0
+      ],
+      "sourceMedianRGB": [
+        217.0,
+        202.0,
+        204.0
+      ],
+      "correctedMedianRGB": [
+        222.0,
+        208.0,
+        210.0
+      ],
+      "beforeError": 6.0,
+      "afterError": 0.3333333333333333
+    }
+  },
+  "perFrameExposureChanges": false
+}

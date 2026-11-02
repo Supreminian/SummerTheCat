@@ -1,0 +1,126 @@
+{
+  "version": "v28",
+  "transitions": {
+    "enabled": true,
+    "durationMs": 160,
+    "loopDurationMs": 90,
+    "easing": "smoothstep",
+    "freezeDestinationDuringBlend": true
+  },
+  "ranges": [
+    {
+      "state": "look",
+      "originalFrames": 193,
+      "startFrame": 10,
+      "endFrameExclusive": 188,
+      "removedLeadingFrames": 10,
+      "removedTrailingFrames": 5
+    },
+    {
+      "state": "yawn",
+      "originalFrames": 146,
+      "startFrame": 4,
+      "endFrameExclusive": 140,
+      "removedLeadingFrames": 4,
+      "removedTrailingFrames": 6
+    },
+    {
+      "state": "groom",
+      "originalFrames": 193,
+      "startFrame": 20,
+      "endFrameExclusive": 174,
+      "removedLeadingFrames": 20,
+      "removedTrailingFrames": 19
+    },
+    {
+      "state": "paw_up",
+      "originalFrames": 78,
+      "startFrame": 7,
+      "endFrameExclusive": 72,
+      "removedLeadingFrames": 7,
+      "removedTrailingFrames": 6,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_up_right",
+      "originalFrames": 72,
+      "startFrame": 12,
+      "endFrameExclusive": 68,
+      "removedLeadingFrames": 12,
+      "removedTrailingFrames": 4,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_right",
+      "originalFrames": 81,
+      "startFrame": 13,
+      "endFrameExclusive": 73,
+      "removedLeadingFrames": 13,
+      "removedTrailingFrames": 8,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_down_right",
+      "originalFrames": 67,
+      "startFrame": 7,
+      "endFrameExclusive": 61,
+      "removedLeadingFrames": 7,
+      "removedTrailingFrames": 6,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_down",
+      "originalFrames": 53,
+      "startFrame": 1,
+      "endFrameExclusive": 51,
+      "removedLeadingFrames": 1,
+      "removedTrailingFrames": 2,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_down_left",
+      "originalFrames": 67,
+      "startFrame": 0,
+      "endFrameExclusive": 64,
+      "removedLeadingFrames": 0,
+      "removedTrailingFrames": 3,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_left",
+      "originalFrames": 86,
+      "startFrame": 5,
+      "endFrameExclusive": 78,
+      "removedLeadingFrames": 5,
+      "removedTrailingFrames": 8,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    },
+    {
+      "state": "paw_up_left",
+      "originalFrames": 82,
+      "startFrame": 5,
+      "endFrameExclusive": 74,
+      "removedLeadingFrames": 5,
+      "removedTrailingFrames": 8,
+      "retainedCompleteRestFrames": 2,
+      "holdMs": 217,
+      "totalReturnRestMs": 300.3333333333333
+    }
+  ],
+  "earActionPreservedInFull": true,
+  "originalAtlasFilesUnchanged": true
+}

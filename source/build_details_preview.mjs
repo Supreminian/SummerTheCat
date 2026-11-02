@@ -1,0 +1,4 @@
+import fs from 'node:fs/promises';import path from 'node:path';import{fileURLToPath}from'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),config=JSON.parse(await fs.readFile(path.join(root,'pet-pack/pet.json'),'utf8')),profile=JSON.parse(await fs.readFile(path.join(root,'source/summer-profile.json'),'utf8'));
+Object.assign(profile,{name:config.name,actions:['natural_sit','look','yawn','groom'].map(id=>config.animations[id].label),available:Object.keys(config.animations),defaultState:config.defaultState,portrait:'data:image/png;base64,'+(await fs.readFile(path.join(root,'pet-pack/main.png'))).toString('base64'),status:'正在 · 自然静坐'});
+const html=(await fs.readFile(path.join(root,'source/pet-details.html'),'utf8')).replace('</script>','\nloadProfile('+JSON.stringify(profile).replaceAll('<','\\u003c')+');\n</script>');await fs.writeFile(path.join(root,'宠物详情预览.html'),html);

@@ -1,0 +1,60 @@
+{
+  "method": "One fixed per-channel RGB gain/offset fitted to six quiet start/end frames, black coat and white fur in opaque torso/paw region; same grade on every full frame, alpha unchanged",
+  "gains": [
+    0.9745905600601409,
+    0.9736941895361818,
+    0.9654060522787461
+  ],
+  "offsets": [
+    4.649265245484975,
+    3.7312935857015823,
+    5.168570700411044
+  ],
+  "roi": [
+    231,
+    216,
+    344,
+    427
+  ],
+  "samples": {
+    "blackCoat": {
+      "targetMedianRGB": [
+        45.0,
+        32.0,
+        38.0
+      ],
+      "sourceMedianRGB": [
+        41.0,
+        28.0,
+        33.0
+      ],
+      "correctedMedianRGB": [
+        45.0,
+        31.0,
+        37.0
+      ],
+      "beforeMedianRGBError": 4.333333333333333,
+      "afterMedianRGBError": 0.6666666666666666
+    },
+    "whiteFur": {
+      "targetMedianRGB": [
+        223.0,
+        208.0,
+        210.0
+      ],
+      "sourceMedianRGB": [
+        224.0,
+        210.0,
+        212.0
+      ],
+      "correctedMedianRGB": [
+        223.0,
+        208.0,
+        210.0
+      ],
+      "beforeMedianRGBError": 1.6666666666666667,
+      "afterMedianRGBError": 0.0
+    }
+  },
+  "perFrameExposureChanges": false
+}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "simulationMinutes": 25,
+  "allSixStatesObserved": [
+    "natural_sit",
+    "ears",
+    "natural_sit_still",
+    "groom",
+    "look",
+    "yawn"
+  ],
+  "automaticActionCounts": {
+    "ears": 24,
+    "groom": 15,
+    "look": 13,
+    "yawn": 1
+  },
+  "completeOriginalFrameRuns": 53,
+  "idleCycleRange": [
+    2,
+    5
+  ],
+  "pauseFreezesScheduler": true,
+  "manualRequestPriority": true,
+  "manualRequestsDuringOneShotsWaitForCompletion": true,
+  "noImmediateRepeat": true,
+  "disablePreservesManualQueue": true
+}

@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "teaserRequiredForAllEightDirections": true,
+  "teaserOffPreservesCurrentAction": true,
+  "teaserOffIsDefault": true,
+  "directionalRuns": [
+    {
+      "direction": "up",
+      "frames": 78,
+      "complete": true
+    },
+    {
+      "direction": "up_right",
+      "frames": 72,
+      "complete": true
+    },
+    {
+      "direction": "right",
+      "frames": 81,
+      "complete": true
+    },
+    {
+      "direction": "down_right",
+      "frames": 67,
+      "complete": true
+    },
+    {
+      "direction": "down",
+      "frames": 53,
+      "complete": true
+    },
+    {
+      "direction": "down_left",
+      "frames": 67,
+      "complete": true
+    },
+    {
+      "direction": "left",
+      "frames": 86,
+      "complete": true
+    },
+    {
+      "direction": "up_left",
+      "frames": 82,
+      "complete": true
+    }
+  ],
+  "stationaryMouseTriggersOnce": true,
+  "exitAndReapproachRearms": true,
+  "busyActionsNotInterrupted": true,
+  "manualQueuePriority": true,
+  "gestureDirectionLocked": true,
+  "pauseAndDisableSuppressInteraction": true,
+  "bodyAndFarDeadZones": true,
+  "sectorHysteresis": true,
+  "fullStaticRestHold300ms": true,
+  "restHoldAfterRenderStall": true
+}

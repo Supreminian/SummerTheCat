@@ -1,0 +1,19 @@
+{
+  "localPixelMotionEditsAllowed": false,
+  "activeActions": [
+    "natural_sit",
+    "look",
+    "yawn",
+    "groom"
+  ],
+  "method": "Original complete-character user-video frames, only technical green-screen matting and constant whole-frame registration. No interpolation, morphing, nasal overlays or local motion synthesis.",
+  "otherActions": "Remain removed.",
+  "transitionPolicy": "Queue looking, yawning and grooming until the current seated cycle has presented its last original frame for its source duration. Each one-shot returns to the selected seated tail mode. Tail setting changes retain a queued action and its cycle boundary. No crossfade or synthetic motion.",
+  "idleVariants": [
+    "natural_sit",
+    "natural_sit_still"
+  ],
+  "tailControl": "Default random holds each intact seated variant for 1–3 complete cycles, then switches at its end. Manual moving/still choices are available. Look has priority and returns to the selected idle mode.",
+  "yawnMatting": "Same original seated-video matting: fractional alpha, dense interior RGB preserved and boundary-only green despill. Existing fixed whole-frame registration unchanged.",
+  "groomMatting": "Technical alpha and boundary-only green-screen decontamination; preserve dense interior RGB and all original video motions. One fixed uniform whole-frame registration per supplied clip."
+}

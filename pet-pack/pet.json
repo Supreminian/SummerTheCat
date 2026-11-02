@@ -1,0 +1,628 @@
+{
+  "schemaVersion": 1,
+  "id": "summer-the-cat-v30",
+  "name": "Summer The Cat",
+  "description": "夏天是一只修长的黑白长毛猫。",
+  "main": "main.png",
+  "defaultState": "natural_sit",
+  "defaultFacing": "front",
+  "interpolateFrames": false,
+  "interpolationMethod": "original-video-frames",
+  "fps": 60,
+  "atlas": {
+    "file": "spritsheet.webp",
+    "width": 512,
+    "height": 512,
+    "frameWidth": 512,
+    "frameHeight": 512,
+    "columns": 1,
+    "rows": 1
+  },
+  "animations": {
+    "natural_sit": {
+      "label": "自然静坐",
+      "row": 0,
+      "frames": 145,
+      "fps": 24,
+      "durationMs": 6041.666666666667,
+      "loop": true,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "clip": {
+        "file": "clips/natural_sit.webp",
+        "width": 6656,
+        "height": 6144,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 13,
+        "rows": 12
+      },
+      "authoredMotion": "User-supplied complete-character green-screen video, all original frames in original order"
+    },
+    "look": {
+      "label": "左右张望",
+      "row": 0,
+      "frames": 193,
+      "fps": 24,
+      "durationMs": 7416.666666666667,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "clip": {
+        "file": "clips/look.webp",
+        "width": 7168,
+        "height": 7168,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 14,
+        "rows": 14
+      },
+      "authoredMotion": "Original user-provided 左右张望.mp4, all frames in original order",
+      "playbackRange": {
+        "startFrame": 10,
+        "endFrameExclusive": 188
+      }
+    },
+    "natural_sit_still": {
+      "label": "自然静坐 · 尾巴不动",
+      "row": 0,
+      "frames": 145,
+      "fps": 24,
+      "durationMs": 6041.666666666667,
+      "loop": true,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "clip": {
+        "file": "clips/natural_sit_still.webp",
+        "width": 6656,
+        "height": 6144,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 13,
+        "rows": 12
+      },
+      "authoredMotion": "Original user-provided cat idle B tail still.mp4, all frames in original order"
+    },
+    "yawn": {
+      "label": "打哈欠",
+      "row": 0,
+      "frames": 146,
+      "fps": 24.0,
+      "durationMs": 5666.666666666667,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "clip": {
+        "file": "clips/yawn.webp",
+        "width": 6656,
+        "height": 6144,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 13,
+        "rows": 12
+      },
+      "authoredMotion": "Original user-provided 打哈欠10.mp4, all 146 frames in original order; fixed global color grade matched to natural_sit",
+      "playbackRange": {
+        "startFrame": 4,
+        "endFrameExclusive": 140
+      }
+    },
+    "groom": {
+      "label": "舔毛",
+      "row": 0,
+      "frames": 193,
+      "fps": 24,
+      "durationMs": 6416.666666666667,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "clip": {
+        "file": "clips/groom.webp",
+        "width": 7168,
+        "height": 7168,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 14,
+        "rows": 14
+      },
+      "authoredMotion": "Original user-provided 舔毛.mp4, all frames in original order",
+      "playbackRange": {
+        "startFrame": 20,
+        "endFrameExclusive": 174
+      }
+    },
+    "ears": {
+      "label": "动耳朵",
+      "row": 0,
+      "frames": 146,
+      "fps": 24,
+      "durationMs": 6083.333333333333,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "clip": {
+        "file": "clips/ears.webp",
+        "width": 6656,
+        "height": 6144,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 13,
+        "rows": 12
+      },
+      "authoredMotion": "Original user-provided 动耳朵3.mp4, all 146 frames in original order; fixed whole-clip registration and color grade"
+    },
+    "paw_up": {
+      "label": "扒拉 · 上",
+      "row": 0,
+      "frames": 78,
+      "fps": 24,
+      "durationMs": 2925.3333333333335,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_up.webp",
+        "width": 4608,
+        "height": 5760,
+        "frameWidth": 512,
+        "frameHeight": 640,
+        "columns": 9,
+        "rows": 9
+      },
+      "authoredMotion": "Original intact source frames 30..107 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 7,
+        "endFrameExclusive": 72
+      }
+    },
+    "paw_up_right": {
+      "label": "扒拉 · 右上",
+      "row": 0,
+      "frames": 72,
+      "fps": 24,
+      "durationMs": 2550.3333333333335,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_up_right.webp",
+        "width": 4608,
+        "height": 4096,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 9,
+        "rows": 8
+      },
+      "authoredMotion": "Original intact source frames 150..221 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 12,
+        "endFrameExclusive": 68
+      }
+    },
+    "paw_right": {
+      "label": "扒拉 · 右",
+      "row": 0,
+      "frames": 81,
+      "fps": 24,
+      "durationMs": 2717.0,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_right.webp",
+        "width": 4608,
+        "height": 4608,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 9,
+        "rows": 9
+      },
+      "authoredMotion": "Original intact source frames 240..320 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 13,
+        "endFrameExclusive": 73
+      }
+    },
+    "paw_down_right": {
+      "label": "扒拉 · 右下",
+      "row": 0,
+      "frames": 67,
+      "fps": 24,
+      "durationMs": 2467.0,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_down_right.webp",
+        "width": 4608,
+        "height": 4096,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 9,
+        "rows": 8
+      },
+      "authoredMotion": "Original intact source frames 321..387 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 7,
+        "endFrameExclusive": 61
+      }
+    },
+    "paw_down": {
+      "label": "扒拉 · 下",
+      "row": 0,
+      "frames": 53,
+      "fps": 24,
+      "durationMs": 2300.3333333333335,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_down.webp",
+        "width": 4096,
+        "height": 3584,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 8,
+        "rows": 7
+      },
+      "authoredMotion": "Original intact source frames 388..440 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 1,
+        "endFrameExclusive": 51
+      }
+    },
+    "paw_down_left": {
+      "label": "扒拉 · 左下",
+      "row": 0,
+      "frames": 67,
+      "fps": 24,
+      "durationMs": 2883.6666666666665,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_down_left.webp",
+        "width": 4608,
+        "height": 4096,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 9,
+        "rows": 8
+      },
+      "authoredMotion": "Original intact source frames 441..507 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 0,
+        "endFrameExclusive": 64
+      }
+    },
+    "paw_left": {
+      "label": "扒拉 · 左",
+      "row": 0,
+      "frames": 86,
+      "fps": 24,
+      "durationMs": 3258.6666666666665,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_left.webp",
+        "width": 5120,
+        "height": 4608,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 10,
+        "rows": 9
+      },
+      "authoredMotion": "Original intact source frames 508..593 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 5,
+        "endFrameExclusive": 78
+      }
+    },
+    "paw_up_left": {
+      "label": "扒拉 · 左上",
+      "row": 0,
+      "frames": 82,
+      "fps": 24,
+      "durationMs": 3092.0,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "interactionOnly": true,
+      "clip": {
+        "file": "clips/paw_up_left.webp",
+        "width": 5120,
+        "height": 4608,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 10,
+        "rows": 9
+      },
+      "authoredMotion": "Original intact source frames 594..675 from user 8方向扒拉.mp4; shared whole-video registration and fixed color grade; never mirrored",
+      "holdLastFrameMs": 217,
+      "playbackRange": {
+        "startFrame": 5,
+        "endFrameExclusive": 74
+      }
+    },
+    "evade_left": {
+      "label": "避让 · 向左跑",
+      "row": 0,
+      "frames": 120,
+      "fps": 24.029975020815986,
+      "durationMs": 4993.762993762994,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "focusOnly": true,
+      "frameTransitions": [
+        {
+          "frame": 33,
+          "durationMs": 100
+        }
+      ],
+      "evadeMotion": {
+        "startFrame": 10,
+        "endFrame": 77
+      },
+      "clip": {
+        "file": "clips/evade_left.webp",
+        "width": 8448,
+        "height": 7040,
+        "frameWidth": 768,
+        "frameHeight": 640,
+        "columns": 11,
+        "rows": 11,
+        "offsetX": 160,
+        "offsetY": 0
+      },
+      "authoredMotion": "Original 跑动.mp4; intact-tail frames in original order; one fixed whole-video registration; no mirroring or limb synthesis"
+    },
+    "evade_right": {
+      "label": "避让 · 向右跑",
+      "row": 0,
+      "frames": 114,
+      "fps": 24.029975020815986,
+      "durationMs": 4744.074844074844,
+      "loop": false,
+      "speed": 0,
+      "directional": false,
+      "geometryLocked": true,
+      "restState": "natural_sit",
+      "focusOnly": true,
+      "frameTransitions": [
+        {
+          "frame": 37,
+          "durationMs": 100
+        },
+        {
+          "frame": 40,
+          "durationMs": 100
+        }
+      ],
+      "evadeMotion": {
+        "startFrame": 14,
+        "endFrame": 64
+      },
+      "clip": {
+        "file": "clips/evade_right.webp",
+        "width": 8448,
+        "height": 7040,
+        "frameWidth": 768,
+        "frameHeight": 640,
+        "columns": 11,
+        "rows": 11,
+        "offsetX": 160,
+        "offsetY": 0
+      },
+      "authoredMotion": "Original 跑动.mp4; intact-tail frames in original order; one fixed whole-video registration; no mirroring or limb synthesis"
+    },
+    "thinking_enter": {
+      "label": "开始倾听 · 歪头",
+      "row": 0,
+      "frames": 68,
+      "fps": 24.357498906864887,
+      "durationMs": 2791.748046875,
+      "loop": false,
+      "speed": 0,
+      "conversationLoop": false,
+      "geometryLocked": true,
+      "restState": "thinking_loop",
+      "clip": {
+        "file": "clips/thinking_enter.webp",
+        "width": 4608,
+        "height": 4096,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 9,
+        "rows": 8
+      },
+      "authoredMotion": "User-supplied whole-character video; fixed uniform transform, original frames in order"
+    },
+    "thinking_loop": {
+      "label": "歪头等待 · 呼吸",
+      "row": 0,
+      "frames": 145,
+      "fps": 24.099722991689752,
+      "durationMs": 6016.666666666667,
+      "loop": true,
+      "speed": 0,
+      "conversationLoop": true,
+      "geometryLocked": true,
+      "restState": "thinking_loop",
+      "clip": {
+        "file": "clips/thinking_loop.webp",
+        "width": 6656,
+        "height": 6144,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 13,
+        "rows": 12
+      },
+      "authoredMotion": "User-supplied whole-character video; fixed uniform transform, original frames in order"
+    },
+    "thinking_exit": {
+      "label": "结束倾听 · 回正",
+      "row": 0,
+      "frames": 78,
+      "fps": 24.311071655041218,
+      "durationMs": 3208.4147135416665,
+      "loop": false,
+      "speed": 0,
+      "conversationLoop": false,
+      "geometryLocked": true,
+      "restState": "natural_sit_still",
+      "clip": {
+        "file": "clips/thinking_exit.webp",
+        "width": 4608,
+        "height": 4608,
+        "frameWidth": 512,
+        "frameHeight": 512,
+        "columns": 9,
+        "rows": 9
+      },
+      "authoredMotion": "User-supplied whole-character video; fixed uniform transform, original frames in order"
+    }
+  },
+  "tailControl": {
+    "defaultMode": "random",
+    "movingState": "natural_sit",
+    "stillState": "natural_sit_still",
+    "minimumCycles": 1,
+    "maximumCycles": 3
+  },
+  "version": 26,
+  "randomBehavior": {
+    "enabled": true,
+    "minimumIdleCycles": 2,
+    "maximumIdleCycles": 5,
+    "avoidImmediateRepeat": true,
+    "actions": [
+      {
+        "state": "ears",
+        "weight": 4
+      },
+      {
+        "state": "look",
+        "weight": 3
+      },
+      {
+        "state": "yawn",
+        "weight": 1
+      },
+      {
+        "state": "groom",
+        "weight": 2
+      }
+    ]
+  },
+  "mouseInteraction": {
+    "enabled": true,
+    "anchor": [
+      544,
+      386
+    ],
+    "reach": [
+      260,
+      280
+    ],
+    "innerRadius": 42,
+    "dwellMs": 180,
+    "cooldownMs": 1800,
+    "returnRestMs": 300,
+    "rearmMovement": 48,
+    "exitRatio": 1.15,
+    "exitDwellMs": 160,
+    "sectorHysteresisDegrees": 7,
+    "directions": {
+      "up": "paw_up",
+      "up_right": "paw_up_right",
+      "right": "paw_right",
+      "down_right": "paw_down_right",
+      "down": "paw_down",
+      "down_left": "paw_down_left",
+      "left": "paw_left",
+      "up_left": "paw_up_left"
+    }
+  },
+  "displayFrame": {
+    "width": 1024,
+    "height": 640,
+    "paddingLeft": 256,
+    "paddingTop": 128
+  },
+  "transitions": {
+    "enabled": true,
+    "durationMs": 160,
+    "loopDurationMs": 90,
+    "easing": "smoothstep",
+    "freezeDestinationDuringBlend": true
+  },
+  "focusMode": {
+    "enabledByDefault": false,
+    "triggerRect": [
+      392,
+      224,
+      692,
+      572
+    ],
+    "dwellMs": 100,
+    "cooldownMs": 2000,
+    "minimumClearance": 24,
+    "preferredTravelFraction": 0.22,
+    "screenMargin": 12,
+    "directions": {
+      "left": "evade_left",
+      "right": "evade_right"
+    }
+  },
+  "chat": {
+    "enterState": "thinking_enter",
+    "loopState": "thinking_loop",
+    "exitState": "thinking_exit"
+  }
+}

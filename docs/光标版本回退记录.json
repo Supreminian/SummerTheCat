@@ -1,0 +1,15 @@
+{
+  "targetVersion": "2.0.30.12",
+  "checkpoint": "最近一次“不要修改系统默认光标”之前",
+  "method": "reverse later cursor changes using recorded source edits",
+  "currentVersionBackup": "/Users/renchengkunwu/Documents/Codex/2026-10-09/8-30-8-spritsheet-webp/work/v30-before-cursor-rollback-20261018",
+  "globalReplacementEnabled": false,
+  "sha256": {
+    "BasicFeatures.swift": "256526ff60cb982d294387783f11622ca7d2ba65c9f15eec1d5a3743ce507158",
+    "PetCursorStyles.swift": "e981a4666c588d980250580e7b29e889c81ffe32e555c2f7654e6c1a417030fd",
+    "TeaserCursor.swift": "83d65f82dc665b9a4bb134fc84ac488b12911e953ca7cbae28fb55cccad03d8a",
+    "SummerTheCat.swift": "4e081f75bfa6bc7be938bc776284e9dcdc6f80806176f96e445d19c33ca42259",
+    "FloatingPetMenu.swift": "1631c6dc18adb4d4f1b8e8195f16a89f1ef30c26172e3fa583998b67c5b182ad",
+    "build.sh": "d900b222303d1b0815471724bdb07953738ec110c30724ae342adcaa7f487875"
+  }
+}

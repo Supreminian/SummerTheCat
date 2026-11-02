@@ -1,0 +1,78 @@
+{
+  "checks" : [
+    {
+      "name" : "SSE handles split Chinese\/emoji UTF-8 and CRLF",
+      "passed" : true
+    },
+    {
+      "name" : "URLSession streams and returns complete text",
+      "passed" : true
+    },
+    {
+      "name" : "Request only targets official HTTPS endpoint",
+      "passed" : true
+    },
+    {
+      "name" : "Authorization remains native",
+      "passed" : true
+    },
+    {
+      "name" : "401 has actionable message",
+      "passed" : true
+    },
+    {
+      "name" : "quota and rate limits distinguished",
+      "passed" : true
+    },
+    {
+      "name" : "EOF without completion is an error",
+      "passed" : true
+    },
+    {
+      "name" : "incomplete response is an error",
+      "passed" : true
+    },
+    {
+      "name" : "response.failed preserves actual error code",
+      "passed" : true
+    },
+    {
+      "name" : "stream-level quota error is actionable",
+      "passed" : true
+    },
+    {
+      "name" : "diagnostics redact credentials",
+      "passed" : true
+    },
+    {
+      "name" : "non-streaming content rejected",
+      "passed" : true
+    },
+    {
+      "name" : "cancel stops request",
+      "passed" : true
+    },
+    {
+      "name" : "history contains bounded complete turns",
+      "passed" : true
+    },
+    {
+      "name" : "storage disabled and output bounded",
+      "passed" : true
+    },
+    {
+      "name" : "model ID validated",
+      "passed" : true
+    },
+    {
+      "name" : "Keychain roundtrip",
+      "passed" : true
+    },
+    {
+      "name" : "Keychain removal",
+      "passed" : true
+    }
+  ],
+  "liveAPIRequest" : false,
+  "passed" : true
+}

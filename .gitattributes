@@ -1,0 +1,12 @@
+* text=auto
+*.swift text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.mjs text eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.mp4 binary
+*.npy binary
